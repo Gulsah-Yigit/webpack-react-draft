@@ -1,10 +1,13 @@
 {
+  "homepage": "https://gulsah-yigit.github.io/webpack-react-draft",
   "name": "webpack-draft",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "NODE_ENV=production webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Gulsah Yigit",
@@ -25,6 +28,7 @@
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.1",
