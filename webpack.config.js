@@ -5,6 +5,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: process.env.NODE_ENV || "production",
 
+  devtool: "eval-cheap-source-map",
+
   entry: {
     bundle: path.join(__dirname, "src", "index.js"),
   },
