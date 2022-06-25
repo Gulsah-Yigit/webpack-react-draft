@@ -1,0 +1,17 @@
+.home_container {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ddd;
+}
+
+.child {
+  padding: 20px 0;
+}
+
+.home_container h1,
+.home_container h3 {
+  margin-top: 20px;
+  display: block;
+  color: rgba(0, 0, 0, 0.651);
+}

@@ -1,19 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { PATHS } from "../utils/constants";
+import "../styles/Home.scss";
 
 const Home = () => {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <h1
-        style={{
-          "text-align": "center",
-        }}
-      >
-        Webpack Reactjs App with Scss
-      </h1>
+    <div className="home_container">
+      <div className="child">
+        <h1>Webpack Reactjs App with Scss</h1>
+
+        <h3>Using webpack as bundler</h3>
+        <h3>Babel to transpile</h3>
+        <h3>React-router-dom for routing</h3>
+        <h3>Scss for styling</h3>
+      </div>
     </div>
   );
 };
