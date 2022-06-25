@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "clear && webpack serve --mode development",
-    "build": "clear && NODE_ENV=production webpack"
+    "start": "webpack serve --mode development",
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "Gulsah Yigit",
